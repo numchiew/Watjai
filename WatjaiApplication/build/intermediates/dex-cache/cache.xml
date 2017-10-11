@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\SirisakPks\.android\build-cache\cef44ead2edb359605af041db53dc2cbd9044013\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\pre-dexed\debug\classes_37326203ac3c546d5950f96533d491d5ee182896.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Project\WatjaiApplication\Application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2323c14d718888210f7b869ed98a30a11f7fb7fc">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_fd69f8ba38734bb323444afae07d04ce22b62e8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SirisakPks\.android\build-cache\98836f1544f256c143ecb8150f4d68f3b5c0b583\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\pre-dexed\debug\classes_78bc208d4295045bfd9029de8c8f37c6c90397d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SirisakPks\.android\build-cache\acd09da328c4a618f3c2053086f4ea8e4e60d55f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\pre-dexed\debug\classes_1df14e89e9146caab8a514405b93c9e63c451311.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SirisakPks\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_f721d9e1e7cea3659c2c7c38fe524193989b860c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SirisakPks\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.3.0\bcacde6a8ccedcc56c127403d26b76072fe6214d\retrofit-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\pre-dexed\debug\retrofit-2.3.0_a6358a2bc169f703d482e1eb70f773d276cc2526.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SirisakPks\.android\build-cache\0f7a8d4aff8eef2ce99c468b04c3baedfb39f84b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\pre-dexed\debug\classes_e3afd85a8f0662b518e0a8a7eb4aae0194a144c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SirisakPks\.android\build-cache\cdb47c3fd45839c3b9283fe9a347ca69fb3f3adc\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8531f2d46b35de75e6130f25830e0c2c0d6bb98c">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\pre-dexed\debug\classes_41ff6dce6e08213fb1cd78e35d69a6c9d542ea22.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SirisakPks\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\pre-dexed\debug\gson-2.7_eb4564b5664f75afe7348bb4e27995d8575c4c45.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SirisakPks\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.8.0\5a11f020cce2d11eb71ba916700600e18c4547e7\okhttp-3.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\pre-dexed\debug\okhttp-3.8.0_347b102be69c6f48e6686e061531c33eb570a0d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SirisakPks\.android\build-cache\991fb654fcacc48e695593fcaadee102d570cce9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\pre-dexed\debug\classes_9e3e8a2d2ca9ef83a7e726a938653d60af6a8140.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SirisakPks\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_d2fb336be4c1e9ae9dc394f0cd5dfd49994153e5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SirisakPks\.android\build-cache\cec0b85fb8286aefc25bcfc791a0304b71ba9d14\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="793a8643e9873c0f6efa248de1bc3508eb6e7a1a">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\pre-dexed\debug\classes_e0f93a6fc7c4b72ba5501f1b6eae71cf36135974.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SirisakPks\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.3.0\9e09011e9767bb76b5e27c9b8223476b93b14631\converter-gson-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9e09011e9767bb76b5e27c9b8223476b93b14631">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\pre-dexed\debug\converter-gson-2.3.0_a7a6cc771c5d3fb96e511de60eda421b8f340700.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SirisakPks\.android\build-cache\7aecaa9d1f61d671b53cdef541916b63e0fc252b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\pre-dexed\debug\classes_3a4034fa3f6eaafd404653d4d8c9f2a9cd42155f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SirisakPks\.android\build-cache\b7305f986dc7d8aa9ee66676e48eeb20271112c2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="987adec819c9a98faf215814f41195da48fc724e">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\pre-dexed\debug\classes_7058326c392c39fa0357ae404230af322a7bc19c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SirisakPks\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\pre-dexed\debug\okio-1.13.0_96868008a88357dfa8924ae211ec5f5c23e9d428.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SirisakPks\.android\build-cache\3db691d81933a541a7cd66b29518a117efeb26b9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\pre-dexed\debug\classes_1b5645553d80b088c2d8ae18d9b99e9c21561f99.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SirisakPks\.android\build-cache\aeb85b1b031b2e69f5c9ad9bbf8d1855a3978706\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\pre-dexed\debug\classes_2a3cf10e6689060b9844fffcd30f3ed1b5d1bd43.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SirisakPks\.android\build-cache\39150a7523f42d3813b041cd6c14b4c7bbfb6cb3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\pre-dexed\debug\classes_f7086651292105f7890acdbbd553cb5d799e4e15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SirisakPks\.android\build-cache\3e744f4eb4efc2e8d656b9635cbafa23dd6dd8a3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\pre-dexed\debug\classes_877517bb48f10fc82f69ad3b6f3d7b7b3d79e6d2.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\Project\WatjaiApplication\Application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ffb94134dfa95cb4270aea92054a8dad505f64ea\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SirisakPks\.android\build-cache\e72fdf194ff7d107c0c953b4bb8b7be2920f5eb5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\pre-dexed\debug\classes_2eeee0956feb733700bf1bb5863029cdd9c9e5ef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SirisakPks\.android\build-cache\5df96e97d73daba91ae8739d6d3a21a1e14a3822\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="E:\Project\WatjaiApplication\Application\build\intermediates\pre-dexed\debug\classes_2b35e2bc48fbe78ea9732a4286714414ece8ad71.jar" />
+    </item>
+
+</items>

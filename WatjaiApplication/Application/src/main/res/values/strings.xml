@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- MainActivity items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+
+    <string name="menu_profile">Profile</string>
+    <string name="menu_measure">Measure</string>
+    <string name="menu_history">History</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_logout">Log out</string>
+    <string name="btn_login">Log in</string>
+    <string name="hint_user">Mobile number</string>
+    <string name="hint_pass">Password</string>
+    <string name="menu_regis"><u>Register</u></string>
+    <string name="menu_forget"><u>Forget password</u></string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="age">Age</string>
+    <string name="address">Address</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="blood_type">Blood type</string>
+    <string name="underlying">Underlying disease</string>
+    <string name="doctor">Doctor</string>
+    <string name="submit">Submit</string>
+    <string name="watjai">WATJAI</string>
+    <string name="information">Help</string>
+    <string name="notification">Notification</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="sub_district">Sub district</string>
+    <string name="district">District</string>
+    <string name="province">Province</string>
+    <string name="postcode">Postcode</string>
+    <string name="scandevice">Scan device</string>
+    <string name="blanknoti">No notifications</string>
+</resources>

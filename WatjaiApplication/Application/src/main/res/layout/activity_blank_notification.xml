@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.bluetoothlegatt.Activity.BlankNotificationActivity">
+
+    <ImageView
+        android:paddingTop="40dp"
+        android:id="@+id/img"
+        android:layout_width="330dp"
+        android:layout_height="289dp"
+        android:src="@drawable/ic_nonotification"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_marginTop="70dp"
+        android:textColor="#343434"
+        android:text="@string/blanknoti"
+        android:layout_width="wrap_content"
+        android:textSize="18pt"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"/>
+
+    <TextView
+        android:layout_marginTop="130dp"
+        android:textColor="#525252"
+        android:text="สบายใจได้หัวใจของคุณสุขภาพแข็งแรง \nในระบบไม่ตรวจพบความผิดปกติ"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:textSize="9pt"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"/>
+</FrameLayout>

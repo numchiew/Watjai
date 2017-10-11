@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.bluetoothlegatt.Activity.EditProfileActivity">
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:padding="20dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_weight="1"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profileImage"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:src="@drawable/profile"
+                android:layout_gravity="center_horizontal"
+                app:civ_border_width="3dp"
+                android:layout_marginBottom="20dp"
+                app:civ_border_color="@color/colorAccent"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/first_name"
+                style="@style/SizeTextviewProfile"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"/>
+
+            <EditText
+                android:minEms="1"
+                android:id="@+id/edtFirstName"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:inputType="text"
+                style="@style/SizeTextviewProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/last_name"
+                style="@style/SizeTextviewProfile"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"/>
+
+            <EditText
+                android:id="@+id/edtLastName"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:inputType="text"
+                style="@style/SizeTextviewProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                style="@style/SizeTextviewProfile"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"/>
+
+            <EditText
+                android:id="@+id/edtAddress"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                style="@style/SizeTextviewProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sub_district"
+                style="@style/SizeTextviewProfile"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"/>
+
+            <EditText
+                android:id="@+id/edtSubDistrict"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:inputType="text"
+                style="@style/SizeTextviewProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/district"
+                style="@style/SizeTextviewProfile"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"/>
+
+            <EditText
+                android:id="@+id/edtDistrict"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:inputType="text"
+                style="@style/SizeTextviewProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/province"
+                style="@style/SizeTextviewProfile"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"/>
+
+            <EditText
+                android:id="@+id/edtProvince"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:inputType="text"
+                style="@style/SizeTextviewProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mobile_number"
+                style="@style/SizeTextviewProfile"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"/>
+
+            <EditText
+                android:id="@+id/edtMobile"
+                android:imeOptions="actionNext"
+                android:singleLine="true"
+                android:inputType="phone"
+                style="@style/SizeTextviewProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

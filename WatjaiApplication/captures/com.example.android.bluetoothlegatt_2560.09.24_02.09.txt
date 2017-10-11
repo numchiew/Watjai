@@ -1,0 +1,34 @@
+Applications Memory Usage (kB):
+Uptime: 3892825 Realtime: 3892825
+
+** MEMINFO in pid 27161 [com.example.android.bluetoothlegatt] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     3158     3056        0        0    20480    13309     7170
+  Dalvik Heap     9059     8968        0        0    13311     8807     4504
+ Dalvik Other     3980     3968        0        0                           
+        Stack      152      152        0        0                           
+    Other dev        4        0        4        0                           
+     .so mmap     1632      132       64        0                           
+    .apk mmap      488        0        4        0                           
+    .ttf mmap       83        0        0        0                           
+    .dex mmap      132        0      128        0                           
+    .oat mmap     3226        0      196        0                           
+    .art mmap     1081      528        0        0                           
+   Other mmap       76        4        0        0                           
+      Unknown       89       88        0        0                           
+        TOTAL    23160    16896      396        0    33791    22116    11674
+ 
+ Objects
+               Views:       29         ViewRootImpl:        2
+         AppContexts:        4           Activities:        2
+              Assets:        2        AssetManagers:        2
+       Local Binders:       10        Proxy Binders:       14
+       Parcel memory:        2         Parcel count:       10
+    Death Recipients:        0      OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
