@@ -203,7 +203,7 @@ public class DeviceControlActivity extends AppCompatActivity {
             mBluetoothLeService.setCharacteristicNotification(charac, true);
         }
 
-        charac.setValue("10");
+        charac.setValue("C");
         boolean status = mBluetoothLeService.writeCharacteristic(charac);
         Log.e(TAG,"Write Status : " + status);
 
@@ -235,7 +235,7 @@ public class DeviceControlActivity extends AppCompatActivity {
             mBluetoothLeService.setCharacteristicNotification(charac, false);
         }
 
-        charac.setValue("20");
+        charac.setValue("F");
         boolean status = mBluetoothLeService.writeCharacteristic(charac);
         Log.e(TAG,"Write Status : " + status);
     }
@@ -373,16 +373,40 @@ public class DeviceControlActivity extends AppCompatActivity {
         }
     }
 
-
+    float ecg;
+    int numCount =0;
+    String temp = "";
     private void collectData(String data){
         if(ecgData == null){
             ecgData = new ArrayList<Float>();
         }
         try{
-            float ecg = Float.parseFloat(data);
-            ecgData.add(ecg);
+            if(numCount > 0){
+                temp += data.substring(0,numCount);
+                ecg = Float.parseFloat(temp);
+                ecgData.add(ecg);
+                series.appendData(new DataPoint(lastX++, ecg), true, 512);
+                temp = "";
+                numCount = 0;
+            }
+
+            int i = data.indexOf(';');
+            while(i >= 0){
+                int k = data.length();
+                System.out.println("i : " + i + "//k : " + k);
+                if(i+4 <= k-1){
+
+                    ecg = Float.parseFloat(data.substring(i+1,i+5));
+                    ecgData.add(ecg);
+                    series.appendData(new DataPoint(lastX++, ecg), true, 512);
+                }else{
+                    temp = data.substring(i+1,k);
+                    numCount = 4-temp.length();
+                }
+                i = data.indexOf(';',i+1);
+            }
             Log.e(TAG,"ECG SIZE : " + ecgData.size());
-            series.appendData(new DataPoint(lastX++, ecg), true, 512);
+
         }catch(Exception e){
             Log.e(TAG,"error : " + e + "\n DATA : " + data);
         }
