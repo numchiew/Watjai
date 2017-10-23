@@ -44,7 +44,7 @@ public class QrsDetector {
 	private BufferedWriter QrsOutput = null;
 	private String strQrsOutput = null;
 	
-	private int samplingFrequency = 256;
+	private int samplingFrequency = 360;
 	private int WIND = 1000  ;
 	
 	private int WINDOW = 100 ;// window on data must be at least 100 because delays are 
@@ -1026,12 +1026,13 @@ public class QrsDetector {
         private double rr;
         private double rrLow;
         private double rrHigh;
+        private double rrMissed;
         private boolean[] recentBeat = new boolean[100];
         int count = 0;
         int nOfBeat = 0;
         int unnormal_state_count = 0;
         double result_rate = 0; // for return percent of Arrthymia.
-        
+        int mill = 0;
 	synchronized public double get_result(InputStream iFile, String fileName) throws IOException {
 		
 		
@@ -1056,6 +1057,7 @@ public class QrsDetector {
 			StringTokenizer tok = new StringTokenizer (strLineFile, " ");			
 			sample = Double.parseDouble(tok.nextToken());
 			fid_pandt = DetectQRS(time,sample);
+                        mill++;
 			
 	        //check1 = (int) (samplingFrequency*mult);
 	        check2 = (int) (sampleNo-last_fid)%(check1);
@@ -1094,6 +1096,7 @@ public class QrsDetector {
                   // set Low-High limith to determine normal/unnormal arrthymia.
                   rrLow = 0.93 * sumR; 
                   rrHigh = 1.16 * sumR;
+                  rrMissed = 1.66 * sumR;
                     System.out.println("===========================");
                     System.out.println("rrLow : " + rrLow + "\nrrHigh : " + rrHigh);
                     System.out.println("sumR : " + sumR);
@@ -1101,8 +1104,10 @@ public class QrsDetector {
                   //check for unnormal state.
                   if(rr >= rrLow && rr <= rrHigh){
                      recentBeat[count] = true;
-                  }else{
+                  }else if(rr <= rrLow || rr >= rrHigh){
                       recentBeat[count] = false;
+                  }else{
+                      break;
                   }
                   count++;
                   // to prevent N of recent beat more than 100 and avoid default value of Array before calculated.
@@ -1117,10 +1122,23 @@ public class QrsDetector {
                           unnormal_state_count++;
                       }
                   }
+                  if(nOfBeat>8){
                   result_rate = ((double)unnormal_state_count / nOfBeat)*100.0;
+                  }
                    System.out.println("unnormal_state_count : " + unnormal_state_count + "\nnOfBeat : " + nOfBeat);
                     System.out.println("Risk Rate : " + result_rate);
                     System.out.println("Heart Rate : " + heart_rate);
+                    if(result_rate > 80 && nOfBeat > 8){
+                        System.out.println("Notic at : " + mill );
+                        if(heart_rate < 60){
+                            System.out.println("bradycardia");
+                        }
+                        else if(heart_rate > 100){
+                            System.out.println("tachycardia");
+                        }else{
+                            System.out.println("normal sinus");
+                        }
+                    }
                      System.out.println("===========================");
                     
                     
@@ -1144,6 +1162,7 @@ public class QrsDetector {
 	                    reset_5pt_median_filt();
 	                }	                
 	            }
+                    
 	            
 	            //actual_fid_rel_time=time_buff[(fid_pt_pandt)%WIND];
 	            //actual_last_fid_rel_time=actual_fid_rel_time;
