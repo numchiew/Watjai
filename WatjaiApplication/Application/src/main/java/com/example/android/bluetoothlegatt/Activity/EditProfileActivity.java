@@ -3,7 +3,6 @@ package com.example.android.bluetoothlegatt.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
@@ -15,7 +14,6 @@ import com.example.android.bluetoothlegatt.Manager.HttpManager;
 import com.example.android.bluetoothlegatt.R;
 
 import java.io.IOException;
-import java.util.Date;
 import java.util.Locale;
 
 import retrofit2.Call;
@@ -46,9 +44,7 @@ public class EditProfileActivity extends AppCompatActivity {
         edtSubDistrict.setText(dao.getSubDistrict());
         edtDistrict.setText(dao.getDistrict());
         edtProvince.setText(dao.getProvince());
-
         edtMobile.setText(dao.getPatTel());
-
         btnSubmit.setOnClickListener(submitEditProfile);
 
     }
@@ -103,7 +99,6 @@ public class EditProfileActivity extends AppCompatActivity {
                         } else {
                             Toast.makeText(EditProfileActivity.this, "Edit success", Toast.LENGTH_SHORT).show();
                         }
-
                     } else {
                         try {
                             Toast.makeText(EditProfileActivity.this, response.errorBody().string()
@@ -113,7 +108,6 @@ public class EditProfileActivity extends AppCompatActivity {
                         }
                     }
                 }
-
                 @Override
                 public void onFailure(Call<PatientItemDao> call, Throwable throwable) {
                     Toast.makeText(EditProfileActivity.this, throwable.toString()

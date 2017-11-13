@@ -5,27 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:weightSum="3"
-    android:padding="30dp"
     android:orientation="vertical"
-    android:background="@drawable/bg_mainmenu"
     tools:context="com.example.android.bluetoothlegatt.Activity.MainActivity">
+
         <LinearLayout
             android:layout_weight="1"
             android:layout_width="match_parent"
             android:orientation="horizontal"
             android:weightSum="2"
-            android:padding="10dp"
             android:layout_height="wrap_content">
                 <RelativeLayout
                     android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                         <ImageButton
-                            android:layout_marginTop="15dp"
                             android:id="@+id/btnMeasure"
                             android:src="@drawable/selector_btn_measure"
                             android:layout_width="match_parent"
-                            android:layout_marginBottom="30dp"
                             android:layout_height="match_parent"
                             android:scaleType="fitCenter"
                             android:layout_gravity="top"
@@ -35,6 +31,7 @@
                             android:layout_height="match_parent"
                             android:text="@string/menu_measure"
                             android:textSize="10pt"
+                            android:paddingBottom="20dp"
                             android:layout_gravity="bottom"
                             android:gravity="bottom|center_horizontal"/>
                 </RelativeLayout>
@@ -43,11 +40,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                         <ImageButton
-                            android:layout_marginTop="15dp"
                             android:id="@+id/btnProfile"
                             android:src="@drawable/selector_btn_profile"
                             android:layout_width="match_parent"
-                            android:layout_marginBottom="30dp"
                             android:layout_height="match_parent"
                             android:scaleType="fitCenter"
                             android:layout_gravity="top"
@@ -57,6 +52,7 @@
                             android:layout_height="match_parent"
                             android:text="@string/menu_profile"
                             android:textSize="10pt"
+                            android:paddingBottom="20dp"
                             android:layout_gravity="bottom"
                             android:gravity="bottom|center_horizontal"/>
                 </RelativeLayout>
@@ -67,18 +63,15 @@
             android:layout_width="match_parent"
             android:orientation="horizontal"
             android:weightSum="2"
-            android:padding="10dp"
             android:layout_height="wrap_content">
                 <RelativeLayout
                     android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                         <ImageButton
-                            android:layout_marginTop="15dp"
                             android:id="@+id/btnHistory"
                             android:src="@drawable/selector_btn_history"
                             android:layout_width="match_parent"
-                            android:layout_marginBottom="30dp"
                             android:layout_height="match_parent"
                             android:scaleType="fitCenter"
                             android:layout_gravity="top"
@@ -88,6 +81,7 @@
                             android:layout_height="match_parent"
                             android:text="@string/menu_history"
                             android:textSize="10pt"
+                            android:paddingBottom="20dp"
                             android:layout_gravity="bottom"
                             android:gravity="bottom|center_horizontal"/>
                 </RelativeLayout>
@@ -96,20 +90,18 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                         <ImageButton
-                            android:layout_marginTop="15dp"
                             android:id="@+id/btnNotification"
                             android:src="@drawable/selector_btn_notic"
                             android:layout_width="match_parent"
-                            android:layout_marginBottom="30dp"
                             android:layout_height="match_parent"
                             android:scaleType="fitCenter"
                             android:layout_gravity="top"
                             android:background="@color/bg_btn_blank_color"/>
                         <TextView
                             android:id="@+id/countNotification"
-                            android:visibility="gone"
-                            android:layout_width="45dp"
-                            android:layout_height="45dp"
+                            android:layout_width="55dp"
+                            android:layout_height="55dp"
+                            android:layout_margin="5dp"
                             android:textStyle="bold"
                             android:textColor="@color/white_text"
                             android:gravity="center"
@@ -122,6 +114,7 @@
                             android:layout_height="match_parent"
                             android:text="@string/notification"
                             android:textSize="10pt"
+                            android:paddingBottom="20dp"
                             android:layout_gravity="bottom"
                             android:gravity="bottom|center_horizontal"/>
                 </RelativeLayout>
@@ -132,18 +125,15 @@
             android:layout_width="match_parent"
             android:orientation="horizontal"
             android:weightSum="2"
-            android:padding="10dp"
             android:layout_height="wrap_content">
                 <RelativeLayout
                     android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                         <ImageButton
-                            android:layout_marginTop="15dp"
-                            android:id="@+id/btnHelp"
+                            android:id="@+id/btnSetting"
                             android:src="@drawable/selector_btn_setting"
                             android:layout_width="match_parent"
-                            android:layout_marginBottom="30dp"
                             android:layout_height="match_parent"
                             android:scaleType="fitCenter"
                             android:layout_gravity="top"
@@ -153,6 +143,7 @@
                             android:layout_height="match_parent"
                             android:text="@string/menu_setting"
                             android:textSize="10pt"
+                            android:paddingBottom="20dp"
                             android:layout_gravity="bottom"
                             android:gravity="bottom|center_horizontal"/>
                 </RelativeLayout>
@@ -161,11 +152,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                         <ImageButton
-                            android:layout_marginTop="15dp"
-                            android:id="@+id/btnSetting"
+                            android:id="@+id/btnHelp"
                             android:src="@drawable/selector_btn_info"
                             android:layout_width="match_parent"
-                            android:layout_marginBottom="30dp"
                             android:layout_height="match_parent"
                             android:scaleType="fitCenter"
                             android:layout_gravity="top"
@@ -175,6 +164,7 @@
                             android:layout_height="match_parent"
                             android:text="@string/information"
                             android:textSize="10pt"
+                            android:paddingBottom="20dp"
                             android:layout_gravity="bottom"
                             android:gravity="bottom|center_horizontal"/>
                 </RelativeLayout>

@@ -3,12 +3,12 @@
 
     <string name="menu_profile">ข้อมูลส่วนตัว</string>
     <string name="menu_measure">วัดใจ</string>
-    <string name="menu_history">วัดใจย้อนหลัง</string>
+    <string name="menu_history">สถิติย้อนหลัง</string>
     <string name="menu_setting">ตั้งค่า</string>
-    <string name="menu_help">ช่วยเหลือ</string>
+    <string name="menu_help">วิธีใช้</string>
     <string name="menu_logout">ออกจากระบบ</string>
     <string name="btn_login">เข้าสู่ระบบ</string>
-    <string name="hint_user">เบอร์โทรศัพท์</string>
+    <string name="hint_user">ชื่อผู้ใช้งาน</string>
     <string name="hint_pass">รหัสผ่าน</string>
     <string name="menu_regis"><u>สมัครสมาชิก</u></string>
     <string name="menu_forget"><u>ลืมรหัสผ่าน</u></string>
@@ -21,7 +21,7 @@
     <string name="doctor">แพทย์ประจำตัว</string>
     <string name="submit">ยืนยัน</string>
     <string name="watjai">วัดใจ</string>
-    <string name="information">ช่วยเหลือ</string>
+    <string name="information">วิธีใช้</string>
     <string name="notification">การแจ้งเตือน</string>
     <string name="first_name">ชื่อ</string>
     <string name="last_name">นามสกุล</string>

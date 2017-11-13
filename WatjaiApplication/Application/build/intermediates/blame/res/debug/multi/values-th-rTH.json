@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-th-rTH\\values-th-rTH.xml",
+        "outputFile": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-th-rTH\\values-th-rTH.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 94
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 740,
+                        "startOffset": 722,
                         "endColumn": 43,
-                        "endOffset": 779
+                        "endOffset": 761
                     }
                 }
             },
@@ -30,13 +30,13 @@
                     "endOffset": 131
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 702,
+                        "startOffset": 685,
                         "endColumn": 36,
-                        "endOffset": 734
+                        "endOffset": 717
                     }
                 }
             },
@@ -49,13 +49,13 @@
                     "endOffset": 187
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
-                        "startOffset": 1527,
+                        "startOffset": 1491,
                         "endColumn": 55,
-                        "endOffset": 1578
+                        "endOffset": 1542
                     }
                 }
             },
@@ -68,13 +68,13 @@
                     "endOffset": 236
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 842,
+                        "startOffset": 822,
                         "endColumn": 48,
-                        "endOffset": 886
+                        "endOffset": 866
                     }
                 }
             },
@@ -87,13 +87,13 @@
                     "endOffset": 286
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 370,
+                        "startOffset": 359,
                         "endColumn": 49,
-                        "endOffset": 415
+                        "endOffset": 404
                     }
                 }
             },
@@ -106,13 +106,13 @@
                     "endOffset": 333
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 28,
                         "startColumn": 4,
-                        "startOffset": 1329,
+                        "startOffset": 1297,
                         "endColumn": 46,
-                        "endOffset": 1371
+                        "endOffset": 1339
                     }
                 }
             },
@@ -125,13 +125,13 @@
                     "endOffset": 382
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 944,
+                        "startOffset": 922,
                         "endColumn": 48,
-                        "endOffset": 988
+                        "endOffset": 966
                     }
                 }
             },
@@ -144,13 +144,13 @@
                     "endOffset": 442
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 641,
+                        "startOffset": 625,
                         "endColumn": 59,
-                        "endOffset": 696
+                        "endOffset": 680
                     }
                 }
             },
@@ -163,13 +163,13 @@
                     "endOffset": 486
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
-                        "startOffset": 1185,
+                        "startOffset": 1156,
                         "endColumn": 43,
-                        "endOffset": 1224
+                        "endOffset": 1195
                     }
                 }
             },
@@ -182,13 +182,13 @@
                     "endOffset": 533
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 474,
+                        "startOffset": 461,
                         "endColumn": 46,
-                        "endOffset": 516
+                        "endOffset": 503
                     }
                 }
             },
@@ -201,13 +201,13 @@
                     "endOffset": 585
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 421,
+                        "startOffset": 409,
                         "endColumn": 51,
-                        "endOffset": 468
+                        "endOffset": 456
                     }
                 }
             },
@@ -216,17 +216,17 @@
                     "startLine": 13,
                     "startColumn": 4,
                     "startOffset": 590,
-                    "endColumn": 49,
-                    "endOffset": 635
+                    "endColumn": 47,
+                    "endOffset": 633
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 1079,
-                        "endColumn": 49,
-                        "endOffset": 1124
+                        "startOffset": 1054,
+                        "endColumn": 47,
+                        "endOffset": 1097
                     }
                 }
             },
@@ -234,18 +234,18 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 640,
+                    "startOffset": 638,
                     "endColumn": 45,
-                    "endOffset": 681
+                    "endOffset": 679
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
-                        "startOffset": 1230,
+                        "startOffset": 1200,
                         "endColumn": 45,
-                        "endOffset": 1271
+                        "endOffset": 1241
                     }
                 }
             },
@@ -253,18 +253,18 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 686,
+                    "startOffset": 684,
                     "endColumn": 58,
-                    "endOffset": 740
+                    "endOffset": 738
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 581,
+                        "startOffset": 566,
                         "endColumn": 58,
-                        "endOffset": 635
+                        "endOffset": 620
                     }
                 }
             },
@@ -272,18 +272,18 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 745,
-                    "endColumn": 47,
-                    "endOffset": 788
+                    "startOffset": 743,
+                    "endColumn": 45,
+                    "endOffset": 784
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 269,
-                        "endColumn": 47,
-                        "endOffset": 312
+                        "startOffset": 262,
+                        "endColumn": 45,
+                        "endOffset": 303
                     }
                 }
             },
@@ -291,18 +291,18 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 793,
+                    "startOffset": 789,
                     "endColumn": 54,
-                    "endOffset": 843
+                    "endOffset": 839
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 163,
+                        "startOffset": 158,
                         "endColumn": 54,
-                        "endOffset": 213
+                        "endOffset": 208
                     }
                 }
             },
@@ -310,18 +310,18 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 848,
+                    "startOffset": 844,
                     "endColumn": 50,
-                    "endOffset": 894
+                    "endOffset": 890
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 318,
+                        "startOffset": 308,
                         "endColumn": 50,
-                        "endOffset": 364
+                        "endOffset": 354
                     }
                 }
             },
@@ -329,18 +329,18 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 899,
+                    "startOffset": 895,
                     "endColumn": 46,
-                    "endOffset": 941
+                    "endOffset": 937
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 115,
+                        "startOffset": 111,
                         "endColumn": 46,
-                        "endOffset": 157
+                        "endOffset": 153
                     }
                 }
             },
@@ -348,18 +348,18 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 946,
+                    "startOffset": 942,
                     "endColumn": 54,
-                    "endOffset": 996
+                    "endOffset": 992
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 59,
+                        "startOffset": 56,
                         "endColumn": 54,
-                        "endOffset": 109
+                        "endOffset": 106
                     }
                 }
             },
@@ -367,18 +367,18 @@
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 1001,
+                    "startOffset": 997,
                     "endColumn": 57,
-                    "endOffset": 1054
+                    "endOffset": 1050
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 522,
+                        "startOffset": 508,
                         "endColumn": 57,
-                        "endOffset": 575
+                        "endOffset": 561
                     }
                 }
             },
@@ -386,18 +386,18 @@
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 1059,
+                    "startOffset": 1055,
                     "endColumn": 48,
-                    "endOffset": 1103
+                    "endOffset": 1099
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 219,
+                        "startOffset": 213,
                         "endColumn": 48,
-                        "endOffset": 263
+                        "endOffset": 257
                     }
                 }
             },
@@ -405,18 +405,18 @@
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 1108,
+                    "startOffset": 1104,
                     "endColumn": 55,
-                    "endOffset": 1159
+                    "endOffset": 1155
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 785,
+                        "startOffset": 766,
                         "endColumn": 55,
-                        "endOffset": 836
+                        "endOffset": 817
                     }
                 }
             },
@@ -424,18 +424,18 @@
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 1164,
+                    "startOffset": 1160,
                     "endColumn": 53,
-                    "endOffset": 1213
+                    "endOffset": 1209
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 24,
                         "startColumn": 4,
-                        "startOffset": 1130,
+                        "startOffset": 1102,
                         "endColumn": 53,
-                        "endOffset": 1179
+                        "endOffset": 1151
                     }
                 }
             },
@@ -443,18 +443,18 @@
                 "to": {
                     "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 1218,
+                    "startOffset": 1214,
                     "endColumn": 49,
-                    "endOffset": 1263
+                    "endOffset": 1259
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
-                        "startOffset": 1423,
+                        "startOffset": 1389,
                         "endColumn": 49,
-                        "endOffset": 1468
+                        "endOffset": 1434
                     }
                 }
             },
@@ -462,18 +462,18 @@
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 1268,
+                    "startOffset": 1264,
                     "endColumn": 44,
-                    "endOffset": 1308
+                    "endOffset": 1304
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
-                        "startOffset": 1377,
+                        "startOffset": 1344,
                         "endColumn": 44,
-                        "endOffset": 1417
+                        "endOffset": 1384
                     }
                 }
             },
@@ -481,18 +481,18 @@
                 "to": {
                     "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 1313,
+                    "startOffset": 1309,
                     "endColumn": 51,
-                    "endOffset": 1360
+                    "endOffset": 1356
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 31,
                         "startColumn": 4,
-                        "startOffset": 1474,
+                        "startOffset": 1439,
                         "endColumn": 51,
-                        "endOffset": 1521
+                        "endOffset": 1486
                     }
                 }
             },
@@ -500,18 +500,18 @@
                 "to": {
                     "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 1365,
+                    "startOffset": 1361,
                     "endColumn": 50,
-                    "endOffset": 1411
+                    "endOffset": 1407
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
-                        "startOffset": 1277,
+                        "startOffset": 1246,
                         "endColumn": 50,
-                        "endOffset": 1323
+                        "endOffset": 1292
                     }
                 }
             },
@@ -519,18 +519,18 @@
                 "to": {
                     "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 1416,
+                    "startOffset": 1412,
                     "endColumn": 41,
-                    "endOffset": 1453
+                    "endOffset": 1449
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 994,
+                        "startOffset": 971,
                         "endColumn": 41,
-                        "endOffset": 1031
+                        "endOffset": 1008
                     }
                 }
             },
@@ -538,18 +538,18 @@
                 "to": {
                     "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 1458,
+                    "startOffset": 1454,
                     "endColumn": 50,
-                    "endOffset": 1504
+                    "endOffset": 1500
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 892,
+                        "startOffset": 871,
                         "endColumn": 50,
-                        "endOffset": 938
+                        "endOffset": 917
                     }
                 }
             },
@@ -557,18 +557,18 @@
                 "to": {
                     "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 1509,
+                    "startOffset": 1505,
                     "endColumn": 40,
-                    "endOffset": 1545
+                    "endOffset": 1541
                 },
                 "from": {
-                    "file": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
+                    "file": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\values-th-rTH\\string.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 1037,
+                        "startOffset": 1013,
                         "endColumn": 40,
-                        "endOffset": 1073
+                        "endOffset": 1049
                     }
                 }
             }

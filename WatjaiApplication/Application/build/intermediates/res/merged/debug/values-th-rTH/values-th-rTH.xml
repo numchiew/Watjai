@@ -10,12 +10,12 @@
     <string name="edit_profile">แก้ไขข้อมูลส่วนตัว</string>
     <string name="first_name">ชื่อ</string>
     <string name="hint_pass">รหัสผ่าน</string>
-    <string name="hint_user">เบอร์โทรศัพท์</string>
-    <string name="information">ช่วยเหลือ</string>
+    <string name="hint_user">ชื่อผู้ใช้งาน</string>
+    <string name="information">วิธีใช้</string>
     <string name="last_name">นามสกุล</string>
     <string name="menu_forget"><u>ลืมรหัสผ่าน</u></string>
-    <string name="menu_help">ช่วยเหลือ</string>
-    <string name="menu_history">วัดใจย้อนหลัง</string>
+    <string name="menu_help">วิธีใช้</string>
+    <string name="menu_history">สถิติย้อนหลัง</string>
     <string name="menu_logout">ออกจากระบบ</string>
     <string name="menu_measure">วัดใจ</string>
     <string name="menu_profile">ข้อมูลส่วนตัว</string>

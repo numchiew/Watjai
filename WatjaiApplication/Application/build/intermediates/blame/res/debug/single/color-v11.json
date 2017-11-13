@@ -1,10 +1,10 @@
 [
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\5df96e97d73daba91ae8739d6d3a21a1e14a3822\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\ceb8c0b3f8754db3714e3b9b5af4877c19a5e8be\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\5df96e97d73daba91ae8739d6d3a21a1e14a3822\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\ceb8c0b3f8754db3714e3b9b5af4877c19a5e8be\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     }
 ]

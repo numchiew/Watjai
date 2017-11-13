@@ -1,86 +1,98 @@
 [
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\5df96e97d73daba91ae8739d6d3a21a1e14a3822\\output\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\ceb8c0b3f8754db3714e3b9b5af4877c19a5e8be\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\5df96e97d73daba91ae8739d6d3a21a1e14a3822\\output\\res\\color\\switch_thumb_material_light.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\ceb8c0b3f8754db3714e3b9b5af4877c19a5e8be\\output\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\5df96e97d73daba91ae8739d6d3a21a1e14a3822\\output\\res\\color\\abc_tint_switch_track.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\ceb8c0b3f8754db3714e3b9b5af4877c19a5e8be\\output\\res\\color\\abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\5df96e97d73daba91ae8739d6d3a21a1e14a3822\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\ceb8c0b3f8754db3714e3b9b5af4877c19a5e8be\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\5df96e97d73daba91ae8739d6d3a21a1e14a3822\\output\\res\\color\\abc_tint_edittext.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\ceb8c0b3f8754db3714e3b9b5af4877c19a5e8be\\output\\res\\color\\abc_tint_default.xml"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color\\tab_color_selected_default.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\cec0b85fb8286aefc25bcfc791a0304b71ba9d14\\output\\res\\color\\tab_color_selected_default.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\ceb8c0b3f8754db3714e3b9b5af4877c19a5e8be\\output\\res\\color\\abc_search_url_text.xml"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\5df96e97d73daba91ae8739d6d3a21a1e14a3822\\output\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\ceb8c0b3f8754db3714e3b9b5af4877c19a5e8be\\output\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\5df96e97d73daba91ae8739d6d3a21a1e14a3822\\output\\res\\color\\abc_search_url_text.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\ceb8c0b3f8754db3714e3b9b5af4877c19a5e8be\\output\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\5df96e97d73daba91ae8739d6d3a21a1e14a3822\\output\\res\\color\\abc_tint_switch_thumb.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\ceb8c0b3f8754db3714e3b9b5af4877c19a5e8be\\output\\res\\color\\abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\5df96e97d73daba91ae8739d6d3a21a1e14a3822\\output\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\ceb8c0b3f8754db3714e3b9b5af4877c19a5e8be\\output\\res\\color\\abc_tint_spinner.xml"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\5df96e97d73daba91ae8739d6d3a21a1e14a3822\\output\\res\\color\\abc_tint_seek_thumb.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\ceb8c0b3f8754db3714e3b9b5af4877c19a5e8be\\output\\res\\color\\switch_thumb_material_light.xml"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\5df96e97d73daba91ae8739d6d3a21a1e14a3822\\output\\res\\color\\abc_tint_btn_checkable.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\ceb8c0b3f8754db3714e3b9b5af4877c19a5e8be\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\5df96e97d73daba91ae8739d6d3a21a1e14a3822\\output\\res\\color\\abc_btn_colored_text_material.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\ceb8c0b3f8754db3714e3b9b5af4877c19a5e8be\\output\\res\\color\\abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\5df96e97d73daba91ae8739d6d3a21a1e14a3822\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\tab_color_selected_default.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\05a3d606041fdaf065f61d93ebf431873851a57d\\output\\res\\color\\tab_color_selected_default.xml"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\5df96e97d73daba91ae8739d6d3a21a1e14a3822\\output\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\ceb8c0b3f8754db3714e3b9b5af4877c19a5e8be\\output\\res\\color\\abc_tint_switch_track.xml"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\5df96e97d73daba91ae8739d6d3a21a1e14a3822\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\8535ac95507835a616fcd7a578efc9b9dae69e28\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\5df96e97d73daba91ae8739d6d3a21a1e14a3822\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\ceb8c0b3f8754db3714e3b9b5af4877c19a5e8be\\output\\res\\color\\abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\5df96e97d73daba91ae8739d6d3a21a1e14a3822\\output\\res\\color\\abc_tint_default.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\ceb8c0b3f8754db3714e3b9b5af4877c19a5e8be\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\5df96e97d73daba91ae8739d6d3a21a1e14a3822\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\8535ac95507835a616fcd7a578efc9b9dae69e28\\output\\res\\color\\common_google_signin_btn_tint.xml"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\5df96e97d73daba91ae8739d6d3a21a1e14a3822\\output\\res\\color\\abc_tint_spinner.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\8535ac95507835a616fcd7a578efc9b9dae69e28\\output\\res\\color\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Users\\SirisakPks\\.android\\build-cache\\5df96e97d73daba91ae8739d6d3a21a1e14a3822\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\ceb8c0b3f8754db3714e3b9b5af4877c19a5e8be\\output\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\ceb8c0b3f8754db3714e3b9b5af4877c19a5e8be\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\ceb8c0b3f8754db3714e3b9b5af4877c19a5e8be\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\USER\\.android\\build-cache\\ceb8c0b3f8754db3714e3b9b5af4877c19a5e8be\\output\\res\\color\\abc_secondary_text_material_light.xml"
     }
 ]

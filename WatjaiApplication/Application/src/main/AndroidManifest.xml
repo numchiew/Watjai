@@ -38,6 +38,24 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
+    <dependency>
+        <groupId>
+            com.github.chyrta
+        </groupId>
+
+        <artifactId>
+            AndroidOnboarder
+        </artifactId>
+
+        <version>
+            0.7
+        </version>
+
+        <type>
+            pom
+        </type>
+    </dependency>
+
     <application
         android:name=".MainApplication"
         android:icon="@drawable/logo_app"
@@ -86,7 +104,7 @@
         <activity
             android:name=".Activity.HistoryActivity"
             android:label="@string/menu_history"
-            android:screenOrientation="landscape"
+            android:screenOrientation="portrait"
             android:theme="@style/AppThemeWithActionBar" />
         <activity
             android:name=".Activity.BlankNotificationActivity"
@@ -98,10 +116,25 @@
             android:label="@string/notification"
             android:screenOrientation="portrait"
             android:theme="@style/AppThemeWithActionBar" />
-        <activity android:name=".Activity.DescriptionNotificationActivity"
+        <activity
+            android:name=".Activity.DescriptionNotificationActivity"
             android:label="แจ้งเตือนการตรวจพบ"
             android:screenOrientation="portrait"
-            android:theme="@style/AppThemeWithActionBar"/>
+            android:theme="@style/AppThemeWithActionBar" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="916a8b9dbb63b500654e59a50e5b84aa9afc5f03" />
+        <meta-data
+            android:name="com.onesignal.NotificationOpened.DEFAULT"
+            android:value="DISABLE" />
+
+        <activity
+            android:name=".Activity.HistoryDetailActivity"
+            android:label="@string/menu_history"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppThemeWithActionBar" />
+        <activity android:name=".Activity.settingActivity"></activity>
     </application>
 
 </manifest>

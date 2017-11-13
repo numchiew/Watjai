@@ -3,6 +3,9 @@ package com.example.android.bluetoothlegatt;
 import android.app.Application;
 
 import com.example.android.bluetoothlegatt.Manager.Contextor;
+import com.example.android.bluetoothlegatt.Manager.MyNotificationOpenedHandler;
+import com.example.android.bluetoothlegatt.Manager.MyNotificationReceivedHandler;
+import com.onesignal.OneSignal;
 
 
 /**
@@ -19,6 +22,14 @@ public class MainApplication extends Application {
 
         // initialize ting(s) here
         Contextor.getInstance().init(getApplicationContext());
+        OneSignal.sendTag("patId", "PA1709001");
+
+        OneSignal.startInit(getApplicationContext())
+                .inFocusDisplaying(OneSignal.OSInFocusDisplayOption.Notification)
+                .setNotificationOpenedHandler(new MyNotificationOpenedHandler())
+                .setNotificationReceivedHandler(new MyNotificationReceivedHandler())
+                .unsubscribeWhenNotificationsAreDisabled(true)
+                .init();
     }
 
     @Override

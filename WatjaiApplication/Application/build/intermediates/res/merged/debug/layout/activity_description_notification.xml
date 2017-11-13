@@ -1,67 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:weightSum="2"
     android:layout_height="match_parent"
     tools:context="com.example.android.bluetoothlegatt.Activity.DescriptionNotificationActivity">
 
-    <LinearLayout
-        android:orientation="horizontal"
-        android:weightSum="2"
-        android:layout_weight="1"
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/ic_heart"/>
-        <LinearLayout
-            android:paddingLeft="10dp"
-            android:layout_weight="1"
-            android:weightSum="2"
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <TextView
-                android:textSize="14pt"
-                android:paddingTop="40dp"
-                android:text="อัตราการเต้น\nของหัวใจ"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"/>
-            <RelativeLayout
-                android:layout_weight="1"
-                android:weightSum="2"
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-                <TextView
-                    android:textSize="20pt"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:id="@+id/tvHeartRate" />
+        android:layout_height="49.2dp"
+        android:src="@drawable/bg_notification_detail"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
-                <TextView
-                    android:textSize="10pt"
-                    android:text="ครั้ง/นาที"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginStart="54dp"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentStart="true"
-                    android:layout_marginTop="55dp" />
-            </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_notification_comment"
+        android:layout_width="300dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="9pt"
+            android:textColor="@color/black_color"
+            android:layout_marginBottom="15dp"
+            android:text="ตรวจพบภาวะหัวใจผิดปกติ"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp">
+            <TextView
+                android:layout_weight="1"
+                android:textSize="8pt"
+                android:textColor="@color/black_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="เมื่อเวลา"/>
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_weight="1"
+                android:textSize="8pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="xxxxx"/>
         </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:textSize="8pt"
+                android:textColor="@color/black_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="วันที่"/>
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_weight="1"
+                android:textSize="8pt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="xxxxx"/>
+        </LinearLayout>
+        <ImageView
+            android:src="@drawable/comment_line"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight="1"
+            android:textSize="9pt"
+            android:textColor="@color/black_color"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ความเห็นของแพทย์"/>
+        <TextView
+            android:layout_weight="1"
+            android:textSize="8pt"
+            android:id="@+id/tvComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"/>
+
     </LinearLayout>
 
-    <com.jjoe64.graphview.GraphView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:id="@+id/graphNotification" />
 
-</LinearLayout>
+</RelativeLayout>

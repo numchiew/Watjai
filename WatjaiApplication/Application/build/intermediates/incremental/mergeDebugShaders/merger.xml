@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="E:\Project\WatjaiApplication\Application\src\main\shaders"/></dataSet><dataSet config="debug"><source path="E:\Project\WatjaiApplication\Application\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="C:\Users\USER\Desktop\WatjaiApplication-master\Application\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\USER\Desktop\WatjaiApplication-master\Application\src\debug\shaders"/></dataSet></merger>

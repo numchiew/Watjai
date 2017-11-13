@@ -7,31 +7,30 @@ import android.widget.TextView;
 
 import com.example.android.bluetoothlegatt.Dao.WatjaiMeasure;
 import com.example.android.bluetoothlegatt.R;
-import com.jjoe64.graphview.GraphView;
-import com.jjoe64.graphview.Viewport;
-import com.jjoe64.graphview.series.DataPoint;
-import com.jjoe64.graphview.series.LineGraphSeries;
-
-import java.util.ArrayList;
 
 public class DescriptionNotificationActivity extends AppCompatActivity {
-    WatjaiMeasure watjaiMeasure;
-    TextView tvHeartRate;
-    ArrayList<Float> data;
-    private LineGraphSeries series;
-    private int sizeOfGraph = 0, lastX = 0;
+
+    private WatjaiMeasure watjaiMeasure;
+    TextView tvDate, tvTime, tvComment;
+    String date, time;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_description_notification);
-
-        watjaiMeasure = getIntent().getParcelableExtra("measure");
-        tvHeartRate = (TextView) findViewById(R.id.tvHeartRate);
-
-        tvHeartRate.setText(watjaiMeasure.getHeartRate()+"");
-
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        tvDate = (TextView) findViewById(R.id.tvDate);
+        tvTime = (TextView) findViewById(R.id.tvTime);
+        tvComment = (TextView) findViewById(R.id.tvComment);
+        watjaiMeasure = new WatjaiMeasure();
+        watjaiMeasure = getIntent().getParcelableExtra("measure");
+        tvComment.setText(watjaiMeasure.getComment());
+        date = watjaiMeasure.getAlertTime();
+        date = date.substring(0,10);
+        time = watjaiMeasure.getAlertTime();
+        time = time.substring(11,16);
+        tvDate.setText(date);
+        tvTime.setText(time);
     }
 
     @Override

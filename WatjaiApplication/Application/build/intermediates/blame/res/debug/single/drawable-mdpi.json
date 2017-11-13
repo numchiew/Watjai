@@ -1,26 +1,30 @@
 [
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\bg_pass_input.9.png",
-        "source": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\drawable-mdpi\\bg_pass_input.9.png"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\bg_user_input.9.png",
+        "source": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\drawable-mdpi\\bg_user_input.9.png"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_sync_black_24dp.png",
-        "source": "E:\\Project\\WatjaiApplication\\Application\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_sync_black_24dp.png"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
+        "source": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_launcher.png",
-        "source": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_notifications_black_24dp.png",
+        "source": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_notifications_black_24dp.png"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_info_black_24dp.png",
-        "source": "E:\\Project\\WatjaiApplication\\Application\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_info_black_24dp.png"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_sync_black_24dp.png",
+        "source": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_sync_black_24dp.png"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\bg_user_input.9.png",
-        "source": "E:\\Project\\WatjaiApplication\\Application\\src\\main\\res\\drawable-mdpi\\bg_user_input.9.png"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_info_black_24dp.png",
+        "source": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_info_black_24dp.png"
     },
     {
-        "merged": "E:\\Project\\WatjaiApplication\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_notifications_black_24dp.png",
-        "source": "E:\\Project\\WatjaiApplication\\Application\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\ic_notifications_black_24dp.png"
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\bg_pass_input.9.png",
+        "source": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\drawable-mdpi\\bg_pass_input.9.png"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\bg_notification_comment.9.png",
+        "source": "C:\\Users\\USER\\Desktop\\WatjaiApplication-master\\Application\\src\\main\\res\\drawable-mdpi\\bg_notification_comment.9.png"
     }
 ]

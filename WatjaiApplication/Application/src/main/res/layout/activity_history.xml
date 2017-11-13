@@ -4,9 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.example.android.bluetoothlegatt.Activity.HistoryActivity">
-    <com.jjoe64.graphview.GraphView
+    <ListView
+        android:id="@+id/historyList"
         android:layout_width="match_parent"
-        android:layout_height="280dp"
-        android:id="@+id/graphHistory" />
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
 </LinearLayout>

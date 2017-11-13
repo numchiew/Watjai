@@ -30,10 +30,17 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Binder;
 import android.os.IBinder;
+import android.support.annotation.IntDef;
 import android.util.Log;
 
+import com.example.android.bluetoothlegatt.GlobalService;
+import com.jjoe64.graphview.series.DataPoint;
+
+import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
+
+import static com.example.android.bluetoothlegatt.GlobalService.ecgData;
 
 /**
  * Service for managing connection and data communication with a GATT server hosted on a
@@ -45,6 +52,8 @@ public class BluetoothLeService extends Service {
     private BluetoothManager mBluetoothManager;
     private BluetoothAdapter mBluetoothAdapter;
     private String mBluetoothDeviceAddress;
+    private String mBluetoothDeviceName;
+    private BluetoothGattCharacteristic mNotifyCharacteristic;
     private BluetoothGatt mBluetoothGatt;
     private int mConnectionState = STATE_DISCONNECTED;
 
@@ -68,6 +77,13 @@ public class BluetoothLeService extends Service {
 
     // Implements callback methods for GATT events that the app cares about.  For example,
     // connection change and services discovered.
+
+
+    @Override
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        return START_STICKY;
+    }
+
     private final BluetoothGattCallback mGattCallback = new BluetoothGattCallback() {
         @Override
         public void onConnectionStateChange(BluetoothGatt gatt, int status, int newState) {
@@ -147,13 +163,56 @@ public class BluetoothLeService extends Service {
                 for(byte byteChar : data)
                     stringBuilder.append(String.format("%02X ", byteChar));
                 intent.putExtra(EXTRA_DATA, new String(data));
+                collectData(new String(data));
             }
         }
         sendBroadcast(intent);
     }
+    float ecg;
+    int numCount =0;
+    String temp = "";
+
+    private void collectData(String data){
+        if(GlobalService.ecgData == null){
+            GlobalService.ecgData = new ArrayList<Float>();
+        }
+        try{
+            if(numCount > 0){
+                temp += data.substring(0,numCount);
+                ecg = Float.parseFloat(temp);
+                GlobalService.ecgData.add(ecg);
+                temp = "";
+                numCount = 0;
+            }
+
+            int i = data.indexOf(';');
+            while(i >= 0){
+                int k = data.length();
+                System.out.println("i : " + i + "//k : " + k);
+                if(i+4 <= k-1){
+
+                    ecg = Float.parseFloat(data.substring(i+1,i+5));
+                    GlobalService.ecgData.add(ecg);
+                }else{
+                    temp = data.substring(i+1,k);
+                    numCount = 4-temp.length();
+                }
+                i = data.indexOf(';',i+1);
+            }
+            Log.e(TAG,"ECG SIZE : " + ecgData.size());
+            if(GlobalService.ecgData.size() > 9600){
+                GlobalService.ecgData = null;
+            }
+
+        }catch(Exception e){
+            Log.e(TAG,"error : " + e + "\n DATA : " + data);
+        }
+
+
+    }
 
     public class LocalBinder extends Binder {
-        BluetoothLeService getService() {
+        public BluetoothLeService getService() {
             return BluetoothLeService.this;
         }
     }
@@ -172,7 +231,7 @@ public class BluetoothLeService extends Service {
         return super.onUnbind(intent);
     }
 
-    private final IBinder mBinder = new LocalBinder();
+    public final IBinder mBinder = new LocalBinder();
 
     /**
      * Initializes a reference to the local Bluetooth adapter.
@@ -247,11 +306,17 @@ public class BluetoothLeService extends Service {
      * {@code BluetoothGattCallback#onConnectionStateChange(android.bluetooth.BluetoothGatt, int, int)}
      * callback.
      */
+    public void resetDevice(){
+        mBluetoothDeviceAddress = null;
+        mBluetoothDeviceName = null;
+    }
+
     public void disconnect() {
         if (mBluetoothAdapter == null || mBluetoothGatt == null) {
             Log.w(TAG, "BluetoothAdapter not initialized");
             return;
         }
+        resetDevice();
         mBluetoothGatt.disconnect();
     }
 
@@ -329,6 +394,81 @@ public class BluetoothLeService extends Service {
         if(mBluetoothGatt == null) return null;
 
         return mBluetoothGatt.getService(UUID.fromString("0000FFE0-0000-1000-8000-00805F9B34FB"));
+    }
+
+    public void setDevice(BluetoothDevice device){
+        mBluetoothDeviceAddress = device.getAddress();
+        mBluetoothDeviceName = device.getName();
+    }
+
+    public int getConnectState(){
+        return mConnectionState;
+    }
+
+    public String getDeviceAddress(){
+        return mBluetoothDeviceAddress;
+    }
+    public String getDeviceName(){
+        return mBluetoothDeviceAddress;
+    }
+
+    public void doStartService(){
+        BluetoothGattService serv = getUUID();
+        if(serv == null){
+            Log.e(TAG,"service not found");
+        }
+
+        BluetoothGattCharacteristic charac = serv.getCharacteristic(UUID.fromString("0000FFE1-0000-1000-8000-00805F9B34FB"));
+        if (charac == null) {
+            Log.e(TAG, "char not found!");
+
+        }
+
+        if(mNotifyCharacteristic != null){
+            setCharacteristicNotification(mNotifyCharacteristic, false);
+            mNotifyCharacteristic = null;
+        }
+        if(BluetoothGattCharacteristic.PROPERTY_NOTIFY > 0){
+            mNotifyCharacteristic = charac;
+           setCharacteristicNotification(charac, true);
+        }
+
+        charac.setValue("C");
+        boolean status = writeCharacteristic(charac);
+        Log.e(TAG,"Write Status : " + status);
+
+
+
+        // mBluetoothLeService.readCharacteristic(charac);
+
+
+
+    }
+
+    public void doStopService(){
+        BluetoothGattService serv = getUUID();
+        if(serv == null){
+            Log.e(TAG,"service not found");
+        }
+
+        BluetoothGattCharacteristic charac = serv.getCharacteristic(UUID.fromString("0000FFE1-0000-1000-8000-00805F9B34FB"));
+        if (charac == null) {
+            Log.e(TAG, "char not found!");
+
+        }
+
+        if(mNotifyCharacteristic != null){
+           setCharacteristicNotification(mNotifyCharacteristic, false);
+            mNotifyCharacteristic = null;
+        }
+        if(BluetoothGattCharacteristic.PROPERTY_NOTIFY > 0){
+            mNotifyCharacteristic = charac;
+            setCharacteristicNotification(charac, false);
+        }
+
+        charac.setValue("F");
+        boolean status = writeCharacteristic(charac);
+        Log.e(TAG,"Write Status : " + status);
     }
 
 

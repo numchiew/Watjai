@@ -60,7 +60,6 @@ public class NotificationListItem extends BaseCustomViewGroup {
         tvDescription = (TextView) findViewById(R.id.tvNotificationDescription);
         readStatus = (ImageView) findViewById(R.id.readStatus);
 
-
     }
 
     private void initWithAttrs(AttributeSet attrs, int defStyleAttr, int defStyleRes) {
@@ -118,7 +117,7 @@ public class NotificationListItem extends BaseCustomViewGroup {
         tvDescription.setText(text);
     }
 
-    public void hideReadStatus() {
-        readStatus.setVisibility(GONE);
+    public void setReadStatus() {
+        readStatus.setImageResource(R.drawable.bg_listnotificationpng);
     }
 }

@@ -40,7 +40,7 @@
     <string name="menu_help">Help</string>
     <string name="menu_logout">Log out</string>
     <string name="btn_login">Log in</string>
-    <string name="hint_user">Mobile number</string>
+    <string name="hint_user">Username</string>
     <string name="hint_pass">Password</string>
     <string name="menu_regis"><u>Register</u></string>
     <string name="menu_forget"><u>Forget password</u></string>

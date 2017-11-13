@@ -8,6 +8,6 @@
         android:state_focused="true"/>
     <item android:drawable="@drawable/ic_menu_measure_onclick"
         android:state_selected="true"/>
-    <item android:drawable="@drawable/ic_menu_measure"/>
+    <item android:drawable="@drawable/componet_watjai"/>
 
 </selector>

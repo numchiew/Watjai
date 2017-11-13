@@ -8,6 +8,6 @@
         android:state_focused="true"/>
     <item android:drawable="@drawable/ic_menu_setting_onclick"
         android:state_selected="true"/>
-    <item android:drawable="@drawable/ic_menu_setting"/>
+    <item android:drawable="@drawable/componet_setting"/>
 
 </selector>
